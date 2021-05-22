@@ -38,7 +38,7 @@ I thought i installed ***Delve*** on my mac but i was wrong, you can test it run
 $ dlv debug
 <br/>
 
-For Windows 10 I found the following error when tried to install it:
+For Windows 10 (CPU Intel i5) I found the following error when tried to install it:
 
 - _found packages native (proc.go) and your_operating_system_and_architecture_combination_is_not_supported_by_delve (support_sentinel.go) in /home/pi/go/src/github.com/go-delve/delve/pkg/proc/native_
 
