@@ -11,6 +11,18 @@ Go is syntactically similar to C, but with memory safety, garbage collection, st
 
 The language is often referred to as Golang because of its domain name, golang.org, but the proper name is Go.
 
+
+## Environment Configuration, Download Go
+Download Go from official doc for Linux, Mac or Windows: https://golang.org/doc/install
+
+## Go IDE
+You can use ***Visual Studio Code*** installing the https://marketplace.visualstudio.com/items?itemName=golang.go extension developed by the Go Google team.
+Then I suggest to download the Delve debugger (https://github.com/go-delve ) for Linux and Mac specially, for Windows 10 I found the following error when tried to install it:
+
+- _found packages native (proc.go) and your_operating_system_and_architecture_combination_is_not_supported_by_delve (support_sentinel.go) in /home/pi/go/src/github.com/go-delve/delve/pkg/proc/native_
+
+
+
 ## Packages
 
 Every **Go** program is made up of _packages_.
