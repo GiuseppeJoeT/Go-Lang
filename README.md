@@ -21,6 +21,9 @@ Then I suggest to download the Delve debugger (https://github.com/go-delve ) for
 
 - _found packages native (proc.go) and your_operating_system_and_architecture_combination_is_not_supported_by_delve (support_sentinel.go) in /home/pi/go/src/github.com/go-delve/delve/pkg/proc/native_
 
+### GoLand - JetBrains
+For me this is the best Go IDE on the market, tried the free-trial version on Windows 10 and it's amazing with a powerful debugger.
+https://www.jetbrains.com/go/
 
 
 ## Packages
