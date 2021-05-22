@@ -28,22 +28,26 @@ $ git clone https://github.com/go-delve/delve
 $ cd delve
 $ go install github.com/go-delve/delve/cmd/dlv
 
+<br/>
 
 I thought i installed ***Delve*** on my mac but i was wrong, you can test it running the following command in the Go project folder via terminal:
 
-$dlv debug
-
+$ dlv debug
+<br/>
 
 For Windows 10 I found the following error when tried to install it:
 
 - _found packages native (proc.go) and your_operating_system_and_architecture_combination_is_not_supported_by_delve (support_sentinel.go) in /home/pi/go/src/github.com/go-delve/delve/pkg/proc/native_
 
-
+<br/>
+<br/>
 
 ### GoLand - JetBrains
 For me this is the best Go IDE on the market, tried the free-trial version on Windows 10 and it's amazing with a powerful debugger.
 https://www.jetbrains.com/go/
 
+<br/>
+<br/>
 
 
 ## Packages
