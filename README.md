@@ -26,16 +26,24 @@ Then I suggest to download the Delve debugger (https://github.com/go-delve ) for
 
 Even if in Mac OSX 10.13.6 (High Sierra), I was not able make Delve working, even if I followed the offical Delve docs for Mac (https://github.com/go-delve/delve/blob/master/Documentation/installation/README.md):
 
+<br/>
 
-$ git clone https://github.com/go-delve/delve
-$ cd delve
-$ go install github.com/go-delve/delve/cmd/dlv
+<ul>
+  <li>$ git clone https://github.com/go-delve/delve</li>
+  <li>$ cd delve</li>
+  <li>$ go install github.com/go-delve/delve/cmd/dlv</li>
+</ul> 
 
 <br/>
 
-I thought i installed ***Delve*** on my mac but i was wrong, you can test it running the following command in the Go project folder via terminal:
+I thought i installed ***Delve*** on my mac but i was wrong.
 
-$ dlv debug
+You can test it running the following command in the Go project folder via terminal:
+
+<ul>
+  <li>$ dlv debug</li>
+</ul> 
+
 <br/>
 
 For Windows 10 (CPU Intel i5) I found the following error when tried to install it:
