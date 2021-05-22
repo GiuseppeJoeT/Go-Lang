@@ -15,15 +15,19 @@ The language is often referred to as Golang because of its domain name, golang.o
 ## Environment Configuration, Download Go
 Download Go from official doc for Linux, Mac or Windows: https://golang.org/doc/install
 
+
 ## Go IDE
 You can use ***Visual Studio Code*** installing the https://marketplace.visualstudio.com/items?itemName=golang.go extension developed by the Go Google team.
-Then I suggest to download the Delve debugger (https://github.com/go-delve ) for Linux and Mac specially, 
+Then I suggest to download the Delve debugger (https://github.com/go-delve ) for Linux and Mac.
 
-In Mac OSX 10.13.6 (High Sierra), I was not able make Delve working, even if I followed the offical Delve docs for Mac (https://github.com/go-delve/delve/blob/master/Documentation/installation/README.md):
+
+Even if in Mac OSX 10.13.6 (High Sierra), I was not able make Delve working, even if I followed the offical Delve docs for Mac (https://github.com/go-delve/delve/blob/master/Documentation/installation/README.md):
+
 
 $ git clone https://github.com/go-delve/delve
 $ cd delve
 $ go install github.com/go-delve/delve/cmd/dlv
+
 
 I thought i installed ***Delve*** on my mac but i was wrong, you can test it running the following command in the Go project folder via terminal:
 
@@ -34,9 +38,12 @@ For Windows 10 I found the following error when tried to install it:
 
 - _found packages native (proc.go) and your_operating_system_and_architecture_combination_is_not_supported_by_delve (support_sentinel.go) in /home/pi/go/src/github.com/go-delve/delve/pkg/proc/native_
 
+
+
 ### GoLand - JetBrains
 For me this is the best Go IDE on the market, tried the free-trial version on Windows 10 and it's amazing with a powerful debugger.
 https://www.jetbrains.com/go/
+
 
 
 ## Packages
