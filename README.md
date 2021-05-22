@@ -11,10 +11,13 @@ Go is syntactically similar to C, but with memory safety, garbage collection, st
 
 The language is often referred to as Golang because of its domain name, golang.org, but the proper name is Go.
 
+<br/>
+<br/>
 
 ## Environment Configuration, Download Go
 Download Go from official doc for Linux, Mac or Windows: https://golang.org/doc/install
-
+<br/>
+<br/>
 
 ## Go IDE
 You can use ***Visual Studio Code*** installing the https://marketplace.visualstudio.com/items?itemName=golang.go extension developed by the Go Google team.
