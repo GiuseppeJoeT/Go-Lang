@@ -72,7 +72,7 @@ It's always a good preactice to initiate new Go project defining the package ***
 </ul>
  
 
-Another usefyl package is **"rand"** ( https://golang.org/pkg/math/rand/ ):
+Another useful package is **"rand"** ( https://golang.org/pkg/math/rand/ ):
 
 ```go
 import paths *"fmt"* and *"math/rand"*
